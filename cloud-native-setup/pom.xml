@@ -7,7 +7,7 @@
 	<version>0.0.1</version>
 	<name>cloud-native-setup</name>
 	<properties>
-		<version.lombok>1.18.12</version.lombok>
+		<version.lombok>1.18.16</version.lombok>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
 	</properties>
