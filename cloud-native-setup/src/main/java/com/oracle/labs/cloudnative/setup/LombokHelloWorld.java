@@ -1,4 +1,4 @@
-package com.oracle.labd.cloudnative.setup;
+package com.oracle.labs.cloudnative.setup;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

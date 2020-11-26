@@ -7,6 +7,7 @@
 	<version>0.0.1</version>
 	<name>cloud-native-setup</name>
 	<properties>
+		<mainClass>com.oracle.labs.cloudnative.setup.LomkokInstallTest</mainClass>
 		<version.lombok>1.18.16</version.lombok>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
@@ -20,5 +21,16 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
-
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.0.0</version>
+            <configuration>
+                <mainClass>${mainClass}</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>

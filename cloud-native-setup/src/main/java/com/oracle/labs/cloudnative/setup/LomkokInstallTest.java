@@ -1,4 +1,4 @@
-package com.oracle.labd.cloudnative.setup;
+package com.oracle.labs.cloudnative.setup;
 
 public class LomkokInstallTest {
 

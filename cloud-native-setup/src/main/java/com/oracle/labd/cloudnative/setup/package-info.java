@@ -1,1 +1,0 @@
-package com.oracle.labd.cloudnative.setup;
